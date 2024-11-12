@@ -1,8 +1,8 @@
-package Main;
+package NIvel1.Main;
 
 
-import Modules.Insert;
-import Modules.Undo;
+import NIvel1.Modules.Insert;
+import NIvel1.Modules.Undo;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,11 +1,11 @@
-package Modules;
+package NIvel1.Modules;
 
 
 import java.util.Scanner;
 
-import static Main.Main.SESSION;
-import static Main.Main.defaultCommands;
-import static Modules.Undo.commands;
+import static NIvel1.Main.Main.SESSION;
+import static NIvel1.Main.Main.defaultCommands;
+import static NIvel1.Modules.Undo.commands;
 
 public class Insert {
 

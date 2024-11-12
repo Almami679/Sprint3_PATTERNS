@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="S3_01_Patterns_1" />
+        <module name="01_Patterns_1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="S3_01_Patterns_1" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
