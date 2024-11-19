@@ -1,3 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.idea
+src/main/resources
+src/test
+target
