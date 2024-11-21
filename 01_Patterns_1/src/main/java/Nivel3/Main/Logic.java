@@ -11,13 +11,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static Nivel3.Main.Main.mainInvoker;
-import static Nivel3.Main.Main.exit;
 import static Nivel3.Main.ScreenArt.printWindow;
 
 public class Logic {
 
     private static final Scanner input = new Scanner(System.in);
+    private static ActionInvoker mainInvoker; //en logic
+    private static boolean exit = false;
 
     public static int selectVehicle() {
         ArrayList<Integer> posiblesOptions = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
@@ -58,7 +58,7 @@ public class Logic {
 
     public static void pressKey() {
         char key = input.next().trim().toLowerCase().charAt(0);
-        if (key == 'q'){
+        if (key == 'q') {
             exit = true;
         } else if (key == 'r') {
             int mainVehicle = selectVehicle();
@@ -68,11 +68,18 @@ public class Logic {
         }
     }
 
-    public static void ClsScreen() throws IOException, InterruptedException {
-        
-        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-        }
+    public static void innitParking(){
+        int mainVehicle = selectVehicle();
+        mainInvoker = selectInvoker(mainVehicle);
+
+        do {
+            printWindow(mainVehicle);
+            pressKey();
+
+        } while(!exit);
     }
+}
+
 
 
 

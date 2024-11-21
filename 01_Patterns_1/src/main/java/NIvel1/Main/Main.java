@@ -9,13 +9,7 @@ import java.util.Arrays;
 
 public class Main {
 
-    public static final Undo SESSION = Undo.getInstance();
-    public static final String[] DEFAULTCOMMANDS = {"exit", "undo", "history"};
-    public static ArrayList<String> defaultCommands = new ArrayList<>(Arrays.asList(DEFAULTCOMMANDS));
-
     public static void main(String[] args) {
-
-
         boolean exit = false;
 
         do {

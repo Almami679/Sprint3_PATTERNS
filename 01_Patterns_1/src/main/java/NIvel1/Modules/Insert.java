@@ -1,16 +1,19 @@
 package NIvel1.Modules;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
-import static NIvel1.Main.Main.SESSION;
-import static NIvel1.Main.Main.defaultCommands;
 import static NIvel1.Modules.Undo.commands;
 
 public class Insert {
 
+    private final Undo SESSION = Undo.getInstance();
     private static final Insert instance = new Insert();
-    private static Scanner input = new Scanner(System.in);
+    private final Scanner input = new Scanner(System.in);
+    private final String[] DEFAULTCOMMANDS = {"exit", "undo", "history"};
+    private ArrayList<String> defaultCommands = new ArrayList<>(Arrays.asList(DEFAULTCOMMANDS));
 
 
     public static Insert getInstance() {
@@ -21,14 +24,14 @@ public class Insert {
         String command = input.nextLine();
         if (!defaultCommands.contains(command)) {
             if (!commands.contains(command)) {
-                SESSION.getInstance().saveStoric(command);
+                Undo.getInstance().saveStoric(command);
             }
-            return SESSION.getInstance().executeCommand(command);
+            return Undo.getInstance().executeCommand(command);
         } else {
             if (command.equalsIgnoreCase("undo")){
-                return SESSION.getInstance().undo();
+                return Undo.getInstance().undo();
             } else if (command.equalsIgnoreCase("history")) {
-            SESSION.getInstance().getStoric();
+            Undo.getInstance().getStoric();
                 return "> " + command;
             } else {
                 return command;
