@@ -22,22 +22,37 @@ public class Insert {
 
     public String sendInput(){
         String command = input.nextLine();
-        if (!defaultCommands.contains(command)) {
-            if (!commands.contains(command)) {
-                Undo.getInstance().saveStoric(command);
-            }
-            return Undo.getInstance().executeCommand(command);
+        String output;
+        if (validateDefaultCommands(command)) {
+            Undo.getInstance().saveStoric(command);
+            output = Undo.getInstance().executeCommand(command);
         } else {
-            if (command.equalsIgnoreCase("undo")){
-                return Undo.getInstance().undo();
-            } else if (command.equalsIgnoreCase("history")) {
-            Undo.getInstance().getStoric();
-                return "> " + command;
-            } else {
-                return command;
-            }
+            output = executeDefaultCommand(command);
         }
+        return output;
     }
+
+    private boolean validateDefaultCommands(String command){
+        boolean output = false;
+        if (!defaultCommands.contains(command) && (!commands.contains(command))) {
+            output = true;
+        }
+        return output;
+    }
+
+    private String executeDefaultCommand(String command) {
+        String output = command;
+        if (command.equalsIgnoreCase("undo")){
+            output = Undo.getInstance().undo();
+        } else if (command.equalsIgnoreCase("history")) {
+            Undo.getInstance().getStoric();
+            output = "> " + command;
+        }
+        return output;
+
+    }
+
+
 
 
 
