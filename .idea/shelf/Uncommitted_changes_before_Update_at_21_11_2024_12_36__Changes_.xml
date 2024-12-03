@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_21_11_2024_12_36_[Changes]" date="1732188994757" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_12_36_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 21/11/2024 12:36 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="01_Patterns_1/target/classes/NIvel1/Main/Main.class" />
+    <option name="AFTER_PATH" value="01_Patterns_1/target/classes/NIvel1/Main/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_12_36_[Changes]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="01_Patterns_1/target/classes/Nivel3/Main/Main.class" />
+    <option name="AFTER_PATH" value="01_Patterns_1/target/classes/Nivel3/Main/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_12_36_[Changes]/Main1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="01_Patterns_1/target/classes/Nivel3/Modules/Plane.class" />
+    <option name="AFTER_PATH" value="01_Patterns_1/target/classes/Nivel3/Modules/Plane.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_12_36_[Changes]/Plane.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="01_Patterns_1/target/classes/Nivel3/Main/Logic.class" />
+    <option name="AFTER_PATH" value="01_Patterns_1/target/classes/Nivel3/Main/Logic.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_12_36_[Changes]/Logic.class" />
+  </binary>
+</changelist>

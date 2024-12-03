@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0770b8c5-e857-4207-9093-f80abdac028d" name="Changes" comment="actualizadas las correcciones" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Exception" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Almami679&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Almami679/Sprint3_PATTERNS.git&quot;,
+    &quot;accountId&quot;: &quot;44f15e1a-0bca-4188-a99b-9ed1a55a3edd&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2okUeaVFz88cfCmH4Bj7pXsHGCs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/almam/Desktop/JAVA ITAcademy/ESPECIALITZACIO/Sprint3_PATTERNS",
+    "onboarding.tips.debug.path": "C:/Users/almam/Desktop/JAVA ITAcademy/ESPECIALITZACIO/Sprint3_PATTERNS/01_Patterns_1/02_Patterns_2/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\almam\Desktop\JAVA ITAcademy\ESPECIALITZACIO\Sprint3_PATTERNS\S3_01_Patterns_1\S3_01_Patterns_1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\almam\Desktop\JAVA ITAcademy\ESPECIALITZACIO\Sprint3_PATTERNS" />
+      <recent name="C:\Users\almam\Desktop\JAVA ITAcademy\ESPECIALITZACIO\Sprint3_PATTERNS\01_Patterns_1\src\main\java" />
+      <recent name="C:\Users\almam\Desktop\JAVA ITAcademy\ESPECIALITZACIO\Sprint3_PATTERNS\S3_01_Patterns_1\S3_01_Patterns_1\Nivel2\src\main\java" />
+      <recent name="C:\Users\almam\Desktop\JAVA ITAcademy\ESPECIALITZACIO\Sprint3_PATTERNS\S3_01_Patterns_1\S3_01_Patterns_1\Nivel1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Nivel3.Command" />
+      <recent name="Nivel3.Modules" />
+      <recent name="Nivel2.Main" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0770b8c5-e857-4207-9093-f80abdac028d" name="Changes" comment="" />
+      <created>1731413162247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731413162247</updated>
+    </task>
+    <task id="LOCAL-00001" summary="restructurando directorios">
+      <option name="closed" value="true" />
+      <created>1731414699265</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731414699265</updated>
+    </task>
+    <task id="LOCAL-00002" summary="restructurando directorios">
+      <option name="closed" value="true" />
+      <created>1731414729442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731414729442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="restructurando directorios">
+      <option name="closed" value="true" />
+      <created>1731414755415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731414755415</updated>
+    </task>
+    <task id="LOCAL-00004" summary="restructurando directorios">
+      <option name="closed" value="true" />
+      <created>1731414891272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731414891272</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nivel 2 completado">
+      <option name="closed" value="true" />
+      <created>1731922937612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731922937612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="nivel 3 completado">
+      <option name="closed" value="true" />
+      <created>1732010902273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732010902273</updated>
+    </task>
+    <task id="LOCAL-00007" summary="nivel 3 completado eliminando morralla">
+      <option name="closed" value="true" />
+      <created>1732014505524</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732014505524</updated>
+    </task>
+    <task id="LOCAL-00008" summary="actualizadas las correcciones">
+      <option name="closed" value="true" />
+      <created>1732188876347</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732188876347</updated>
+    </task>
+    <task id="LOCAL-00009" summary="actualizadas las correcciones">
+      <option name="closed" value="true" />
+      <created>1732189482251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732189482251</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="restructurando directorios" />
+    <MESSAGE value="nivel 2 completado" />
+    <MESSAGE value="nivel 3 completado" />
+    <MESSAGE value="nivel 3 completado eliminando morralla" />
+    <MESSAGE value="actualizadas las correcciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizadas las correcciones" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/01_Patterns_1/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/01_Patterns_1/src/main/java/Nivel3/Main/ScreenArt.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/02_Patterns_2/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
