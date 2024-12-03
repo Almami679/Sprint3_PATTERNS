@@ -18,6 +18,7 @@ public class Logic {
     private static final Scanner input = new Scanner(System.in);
     private static ActionInvoker mainInvoker; //en logic
     private static boolean exit = false;
+    private static int mainVehicle;
 
     public static int selectVehicle() {
         ArrayList<Integer> posiblesOptions = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
@@ -26,16 +27,7 @@ public class Logic {
             System.out.println("What vehicle do you want to use?\n" +
                     "[1] Ship     [2] Car      [3] Bicycle    [4] Plane");
             vehicle = input.nextInt();
-            switch (vehicle) {
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                default:
+            if(!posiblesOptions.contains(vehicle)){
                     System.out.println("Invalid option, please try again");
             }
         } while (!posiblesOptions.contains(vehicle));
@@ -61,7 +53,7 @@ public class Logic {
         if (key == 'q') {
             exit = true;
         } else if (key == 'r') {
-            int mainVehicle = selectVehicle();
+            mainVehicle = selectVehicle();
             mainInvoker = selectInvoker(mainVehicle);
         } else {
             mainInvoker.action(key);
@@ -69,7 +61,7 @@ public class Logic {
     }
 
     public static void innitParking(){
-        int mainVehicle = selectVehicle();
+        mainVehicle = selectVehicle();
         mainInvoker = selectInvoker(mainVehicle);
 
         do {
